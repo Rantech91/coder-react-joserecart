@@ -10,7 +10,7 @@ export default function Navbar(props) {
           <NavLink to={`/`}>JOSELITOMARKET</NavLink>
         </h1>
       </div>
-      <ul className=" w-1/3 flex justify-between">
+      <ul className=" w-1/3 flex justify-between font-bold text-xl">
         {categories.map((category) => {
           return (
             <li key={category.id}>
